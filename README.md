@@ -21,3 +21,30 @@ This project is a powerful **Streamlit web app** that enables users to:
 
 ## 📁 File Structure
 
+    Stock_Price_Dashboard/
+    ├── app.py # Main Streamlit app
+    ├── rag_qa.py # RAG module using Google Gemini API
+    ├── requirements.txt # Python dependencies
+
+## 🚀 Demo
+
+    App Demo:
+## ⚙️ Setup Instructions
+
+### 1. Clone the repository
+
+      git clone https://github.com/neehaanzum/-Stock-Price-Dashboard-with-RAG-Q-A.git
+
+2. Install dependencies
+
+        pip install -r requirements.txt
+
+3. Add your Google API Key
+
+Open rag_qa.py and replace the placeholder:
+
+      genai.configure(api_key="YOUR_GOOGLE_API_KEY")
+
+▶️ Run the app
+
+      streamlit run app.py
